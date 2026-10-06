@@ -10,8 +10,19 @@ Go 公式サイト（[go.dev](https://go.dev)、ソースは [golang/website](ht
 
 ## 翻訳済み
 
-- `doc/tutorial/getting-started.md` — [go.dev/doc/tutorial/getting-started](https://go.dev/doc/tutorial/getting-started)（チュートリアル: Go を始める）
+- `doc/tutorial/index.md` — [go.dev/doc/tutorial](https://go.dev/doc/tutorial)（チュートリアル一覧）
+- `doc/tutorial/getting-started.md` — [go.dev/doc/tutorial/getting-started](https://go.dev/doc/tutorial/getting-started)
+- `doc/tutorial/create-module.md`、`call-module-code.md`、`handle-errors.md`、`random-greeting.md`、`greetings-multiple-people.md`、`add-a-test.md`、`compile-install.md`、`module-conclusion.md` — 「Create a Go module」チュートリアルシリーズ全7トピックを完訳
+- `blog/errors-are-values.md` — [go.dev/blog/errors-are-values](https://go.dev/blog/errors-are-values)（Rob Pike「エラーは値である」）
+- `blog/defer-panic-and-recover.md` — [go.dev/blog/defer-panic-and-recover](https://go.dev/blog/defer-panic-and-recover)
 
 ## 未翻訳
 
-`_content/` には `doc/`（FAQ・Effective Go・言語仕様など）、`blog/`（数百本の記事）、`learn/`、`solutions/`、`tour/` など大部分が未着手。必要になったページから追加していく。
+`_content/` の大部分が未着手。特に:
+
+- `doc/`: FAQ（faq.md）、Effective Go（effective_go.html）、言語仕様へのリンク、modules リファレンスなど
+- `doc/tutorial/`: workspaces・json・database-access・web-service-gin・generics・fuzz・govulncheck 系（上記以外の個別チュートリアル）
+- `blog/`: 数百本の記事（上記2本以外）
+- `learn/`、`solutions/`、`tour/`、`wiki/` など
+
+必要になったページから追加していく。

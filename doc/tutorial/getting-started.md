@@ -151,8 +151,10 @@ Hello, World から始めましょう。
 
 ## もっとコードを書く
 
-この簡単な導入で、Go をインストールし、基本のいくつかを学びました。さらにコードを書くために、別のチュートリアル [Go モジュールを作成する](/doc/tutorial/create-module.html) を見てみてください。
+この簡単な導入で、Go をインストールし、基本のいくつかを学びました。さらにコードを書くために、別のチュートリアル [Go モジュールを作成する](/doc/tutorial/create-module) を見てみてください。
 
 ---
+
+**次へ:** [Go モジュールを作成する](/doc/tutorial/create-module)
 
 本ページは [go.dev/doc/tutorial/getting-started](https://go.dev/doc/tutorial/getting-started) の非公式日本語訳です。原文の著作権は The Go Authors に帰属し、[Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/) で提供されています。
